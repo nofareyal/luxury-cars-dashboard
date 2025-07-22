@@ -1,1 +1,58 @@
 # luxury-cars-dashboard
+<!DOCTYPE html>
+<html lang="he">
+<head>
+  <meta charset="UTF-8">
+  <title>Luxury Drive TLV – מערכת BI לרכבי יוקרה</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      direction: rtl;
+      background-image: url('https://images.unsplash.com/photo-1606813905949-64965802a1a5?auto=format&fit=crop&w=1350&q=80');
+      background-size: cover;
+      background-position: center;
+      color: #ffffff;
+      padding: 40px;
+      text-shadow: 1px 1px 3px #000;
+    }
+    h1 {
+      font-size: 36px;
+      color: #ffe400;
+    }
+    h2 {
+      color: #ffffff;
+      margin-top: 30px;
+    }
+    p {
+      background: rgba(0, 0, 0, 0.6);
+      padding: 10px;
+      border-radius: 6px;
+    }
+    a {
+      color: #ffe400;
+      font-weight: bold;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Luxury Drive TLV – מערכת מידע לרכבי יוקרה</h1>
+  <p>האתר מציג שלושה דשבורדים שנבנו בתוכנת Tableau לניתוח עסקאות מכירה והשכרה של רכבי יוקרה בישראל. הדשבורדים מסייעים בקבלת החלטות אסטרטגיות, ניהוליות ותפעוליות.</p>
+
+  <h2>דשבורד אסטרטגי</h2>
+  <p>מגמות מכירה לפי דגם ושנה</p>
+  <a href="https://public.tableau.com/views/_17531885367760/sheet4?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link" target="_blank">לצפייה בדשבורד האסטרטגי</a>
+
+  <h2>דשבורד ניהולי</h2>
+  <p>פילוח עסקאות לפי אזור גיאוגרפי וסוג לקוח</p>
+  <a href="https://public.tableau.com/views/_17531891500220/sheet6?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link" target="_blank">לצפייה בדשבורד הניהולי</a>
+
+  <h2>דשבורד תפעולי</h2>
+  <p>ניתוח תקופת השכרה לפי אמצעי תשלום</p>
+  <a href="https://public.tableau.com/views/_17531902997960/sheet8?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link" target="_blank">לצפייה בדשבורד התפעולי</a>
+
+  <p style="margin-top:50px; font-size:small;">© נבנה על ידי נופר | פרויקט גמר, יולי 2025</p>
+
+</body>
+</html>
